@@ -12,10 +12,10 @@ makepkg -si
 
 ``
 
-2. Install npm
+2. Install npm & python
 
 ```bash
-yay -Sy --noconfirm --needed npm
+yay -Sy --noconfirm --needed npm python
 ```
 
 3. Install Neovim
@@ -72,3 +72,21 @@ mv ~/.bashrc ~/.bashrc.bak
 mv ~/.config/kitty ~/.config/kitty.bak
 mv ~/.config/hypr ~/.config/hypr.bak
 ```
+
+6. Git config
+7. Hyprland extension
+
+- cursor
+```bash
+yay -Sy --noconfirm --needed nwg-look bibata-cursor-theme-bin
+```
+- hyprshade
+- hyprpaper
+- waybar
+```bash
+yay -Sy --noconfirm waybar
+```
+
+8. Tmux
+
+- TPM
