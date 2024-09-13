@@ -9,8 +9,7 @@ sudo pacman -S --needed git base-devel
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
-
-``
+```
 
 2. Install npm & python
 
@@ -52,6 +51,19 @@ yay -Sy --needed --noconfirm fzf ripgrep bat eza zoxide plocate btop apache2-uti
 yay -Sy --needed --noconfirm ttf-sourcecodepro-nerd
 ```
 
+7. Hyprland extension
+
+- cursor
+```bash
+yay -Sy --noconfirm --needed nwg-look bibata-cursor-theme-bin
+```
+- hyprshade
+- hyprpaper
+- waybar
+```bash
+yay -Sy --noconfirm waybar
+```
+
 5. Stow dotfiles
 
 - Clone dotfiles repo
@@ -74,19 +86,6 @@ mv ~/.config/hypr ~/.config/hypr.bak
 ```
 
 6. Git config
-7. Hyprland extension
-
-- cursor
-```bash
-yay -Sy --noconfirm --needed nwg-look bibata-cursor-theme-bin
-```
-- hyprshade
-- hyprpaper
-- waybar
-```bash
-yay -Sy --noconfirm waybar
-```
-
 8. Tmux
 
 - TPM
