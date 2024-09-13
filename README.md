@@ -57,7 +57,6 @@ yay -Sy --needed --noconfirm ttf-sourcecodepro-nerd
 ```bash
 yay -Sy --noconfirm --needed nwg-look bibata-cursor-theme-bin
 ```
-- hyprshade
 - hyprpaper
 - waybar
 ```bash
