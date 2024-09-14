@@ -1,5 +1,5 @@
-# Copy sugar-candy theme to /usr/share/sddm/themes
-sudo cp ../../sddm/sugar-candy /usr/share/sddm/themes/ -r
+# Copy sugar-candy theme to /usr/share/sddm/themes if not exists
+sudo cp ../../sddm/sugar-candy/ /usr/share/sddm/themes/ -r -n
 
 # Install qt5
 yay -Sy --needed --noconfirm sddm qt5-graphicaleffects qt5-quickcontrols2 qt5-svg
