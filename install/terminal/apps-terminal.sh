@@ -17,5 +17,4 @@ rm -rf iafonts.zip iaFonts
 fc-cache
 cd -
 
-yay -Sy --needed --noconfirm ttf-sourcecodepro-nerd ttf-freefont ttf-arphic-uming tt
-f-baekmuk
+yay -Sy --needed --noconfirm ttf-sourcecodepro-nerd ttf-freefont ttf-arphic-uming ttf-baekmuk
