@@ -1,11 +1,3 @@
-# Install yay
-
-sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ~/
-
 # Needed for all installers
 yay -Syu --noconfirm --needed curl git unzip npm python wl-clipboard
 
