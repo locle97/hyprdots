@@ -3,7 +3,7 @@ yay -Sy --needed --noconfirm neovim
 # Only attempt to set configuration if Neovim has never been run
 if [ ! -d "$HOME/.config/nvim" ]; then
 	# Use LazyVim
-	git clone https://github.com/locle97/nvchad-starter ~/.config/nvim
+	git clone https://github.com/locle97/minimal-nvim ~/.config/nvim
 fi
 
 # Replace desktop launcher with one running inside Alacritty
