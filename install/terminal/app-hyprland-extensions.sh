@@ -13,3 +13,4 @@ cd rofi-themes-collection
 
 mkdir -p ~/.local/share/rofi/themes/
 cp themes/* ~/.local/share/rofi/themes/
+cd -
